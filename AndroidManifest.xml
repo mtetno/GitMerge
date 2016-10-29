@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="easypadhai.core">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name=".application.EasyPadhaiApplication"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.NotificationActivity"></activity>
+        <activity android:name=".activity.HoamActivity"></activity>
+        <activity android:name=".activity.RegisterActivity"></activity>
+        <activity android:name=".activity.QuestionCategoryActivity"></activity>
+        <activity android:name=".activity.LoginActivity"></activity>
+        <activity android:name=".activity.QuestionListActivity"></activity>
+        <activity android:name=".activity.QuestionDetailActivity"></activity>
+        <activity android:name=".activity.TestListActivity"></activity>
+        <activity android:name=".activity.QuestionDetailType2Activity"></activity>
+        <activity android:name=".activity.ArticleCategoryActivity"></activity>
+        <activity android:name=".activity.ArticleDetailActivity"></activity>
+        <activity android:name=".activity.ArticleListActivity"></activity>
+        <activity android:name=".activity.MainActivity"></activity>
+        <activity android:name=".activity.TestQuestionDetailActivity"></activity>
+        <activity android:name=".activity.AnukamanikaActivity"></activity>
+        <activity android:name=".activity.HowToBuyActivity"></activity>
+        <activity android:name=".activity.PaymentActivity"></activity>
+        <activity android:name=".activity.PremiumActivity"></activity>
+        <activity android:name=".activity.SubcribtionActivity"></activity>
+        <activity android:name=".activity.WhyBuyPremiumActivity"></activity>
+        <service
+            android:name=".service.DownloadDataService"
+            android:enabled="true" />
+    </application>
+
+</manifest>
